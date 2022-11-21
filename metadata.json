@@ -1,0 +1,23 @@
+{
+    "KPlugin": {
+        "Name": "Open windows based on parameters",
+        "Description": "Opens a window given number representing a monitor and another number representing a program.",
+        "Icon": "preferences-system-windows",
+        
+        "Authors": [
+            {
+                "Email": "william@williamdoes.dev",
+                "Name": "William Simpson"
+            }
+        ],
+        "Id": "kwinopen",
+        "ServiceTypes": [
+            "KWin/Script"
+        ],
+        "Version": "1.0",
+        "Licsense": "GPLv3",
+        "Website": "https://github.com/williamdoesdev/kwinopen"
+    },
+    "X-Plasma-API": "javascript",
+    "X-Plasma-MainScript": "code/main.js"
+}
